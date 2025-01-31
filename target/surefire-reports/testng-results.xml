@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-01-25T22:26:42 IST" name="Surefire suite" finished-at="2025-01-25T22:29:34 IST" duration-ms="172136">
+    <groups>
+    </groups>
+    <test started-at="2025-01-25T22:26:42 IST" name="Surefire test" finished-at="2025-01-25T22:29:34 IST" duration-ms="172136">
+      <class name="com.smartfren.LoginPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.smartfren.LoginPageTest@5db250b4]" started-at="2025-01-25T22:26:42 IST" name="setUp" finished-at="2025-01-25T22:26:54 IST" duration-ms="12132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="login()[pri:1, instance:com.smartfren.LoginPageTest@5db250b4]" started-at="2025-01-25T22:26:54 IST" name="login" finished-at="2025-01-25T22:28:05 IST" duration-ms="70645" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- com.smartfren.LoginPageTest -->
+      <class name="com.smartfren.LogoutPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.smartfren.LogoutPageTest@647fd8ce]" started-at="2025-01-25T22:28:05 IST" name="setUp" finished-at="2025-01-25T22:29:29 IST" duration-ms="83821" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="logouttest()[pri:2, instance:com.smartfren.LogoutPageTest@647fd8ce]" started-at="2025-01-25T22:29:29 IST" name="logouttest" finished-at="2025-01-25T22:29:34 IST" duration-ms="5485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logouttest -->
+      </class> <!-- com.smartfren.LogoutPageTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
