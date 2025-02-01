@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.smartfren.LoginPageTest">
+      <class name="com.smartfren.LogoutPageTest">
         <methods>
+          <include name="logouttest"/>
           <include name="setUp"/>
-          <include name="login"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- com.smartfren.LoginPageTest -->
+      </class> <!-- com.smartfren.LogoutPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

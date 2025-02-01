@@ -7,6 +7,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -27,4 +28,10 @@ public class LoginPageTest extends BaseTestClass {
 //		driver.findElement(By.id("password")).sendKeys("Admin@1234");
 		driver.findElement(By.id("submit")).click();
 	}
+	
+    @AfterMethod
+    public void tearDown() {
+        quitBrowser();
+    }
+	
 }
